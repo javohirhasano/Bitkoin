@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import { useSelector } from 'react-redux';
 import MainWrapper from '../Container/index/MainIndexWrapper';
 import Link from "next/link"
+import Footer from '../Container/Footer/Footer';
 
 
 export default function Home() {
@@ -186,12 +187,15 @@ export default function Home() {
                       <p>Покупайте, продавайте, управляйте и торгуйте более 150 криптовалютами (включая Bitcoin, BNB и Ethereum). Увеличьте свою прибыль с Binance</p>
                     </div>
                   </div>
+                  <Footer className="mt-5"></Footer>
                 </div>
+
               </div>
 
             </IndexWrapper>
           </div>
         </div>
+
       </MainWrapper>
 
     </div>

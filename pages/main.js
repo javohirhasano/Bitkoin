@@ -14,7 +14,7 @@ const About = () => {
                     <h1>Menu</h1>
                     <div className="m-4">
                         <Button><Link className="barlink" href="/main"><a className="barlink text-white">About</a></Link></Button>
-                        <Button><Link className="barlink" href="/index"><a className="barlink text-white">Home</a></Link></Button>
+                        <Button><Link className="barlink" href="/user"><a className="barlink text-white">Home</a></Link></Button>
                         <Button><Link className="barlink" href="main"><a className="barlink text-white">Photos</a></Link></Button>
                         <Button><Link className="barlink" href="main"><a className="barlink text-white">Posts</a></Link></Button>
                         <Button><Link className="barlink" href="main"><a className="barlink text-white">Contact</a></Link></Button>
